@@ -13,5 +13,11 @@
   }
 
 .nav-link {
-    color: #e28327
+    color: #e28327;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px
+}
+
+.logo {
+    max-height: 75px;
 }
