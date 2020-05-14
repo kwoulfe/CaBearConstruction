@@ -1,5 +1,11 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
 .carousel-item {
-    height: 95vh;
+    height: 100vh;
     min-height: 350px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -12,6 +18,10 @@
       background: url("../images/headerColorBlack.png") repeat scroll 0 0 transparent;
   }
 
+.nav-item {
+    text-align: center;
+}
+
 .nav-link {
     color: #e28327;
     font-family: 'Patrick Hand', cursive;
@@ -20,4 +30,22 @@
 
 .logo {
     max-height: 75px;
+}
+
+.carousel-control-down {
+    position: absolute;
+    bottom: 4em;;
+    z-index: 1;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.down-arrow {
+    max-width: 50PX;
 }
