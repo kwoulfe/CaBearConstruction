@@ -49,3 +49,11 @@ body, html {
 .down-arrow {
     max-width: 50PX;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    .carousel-item {
+        height: 95vh;
+    }
+  }
