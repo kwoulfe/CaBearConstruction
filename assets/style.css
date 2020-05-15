@@ -25,9 +25,12 @@ body, html {
 }
 
 .nav-link {
-    color: #e28327;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 25px;
+    color: white;
+    /* font-family: 'Patrick Hand', cursive; */
+    /* font-family: 'Teko', sans-serif; */
+    /* font-family: 'Reem Kufi', sans-serif; */
+    font-family: 'Homenaje', sans-serif;
+    font-size: 20px;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
 }
