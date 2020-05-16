@@ -14,11 +14,11 @@ body, html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
-  .fixed-top {
-      background: url("../images/headerColorBlack.png") repeat scroll 0 0 transparent;
-  }
+.fixed-top {
+    background: url("../images/headerColorBlack.png") repeat scroll 0 0 transparent;
+}
 
 .nav-item {
     text-align: center;
@@ -57,6 +57,29 @@ body, html {
     max-width: 50PX;
 }
 
+/* JUMBOTRON */
+
+#main {
+    vertical-align: middle;
+}
+
+.jumbotron {
+    height: 20em;
+    background-color: black;
+}
+
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.lead {
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: white;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px) {
@@ -68,5 +91,8 @@ body, html {
   @media screen and (max-width: 576px) {
     .carousel-item {
         height: 91vh;
+    }
+    .display-4 {
+        font-size: 35px;
     }
   }
