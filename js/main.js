@@ -2,7 +2,7 @@ $(document).ready(function () {
     var previousScroll = 0;
     $(window).scroll(function () {
         var currentScroll = $(this).scrollTop();
-        if (currentScroll < 550) {
+        if (currentScroll < 250) {
             showNav();
         } else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
             if (currentScroll > previousScroll) {
