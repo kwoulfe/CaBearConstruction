@@ -36,6 +36,10 @@ nav {
     padding-right: 1rem !important;
 }
 
+.nav-link:hover {
+    color: white;
+}
+
 .logo {
     max-height: 75px;
 }
