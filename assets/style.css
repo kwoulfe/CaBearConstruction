@@ -40,6 +40,10 @@ nav {
     color: white;
 }
 
+button:focus {
+    outline: 0;
+}
+
 .logo {
     max-height: 75px;
 }
@@ -107,11 +111,25 @@ nav {
     color: white;
 }
 
+/* CARDS */
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px) {
     .carousel-item {
         height: 93vh;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .card-img-top {
+        height: 60vw;
     }
   }
 
@@ -121,5 +139,8 @@ nav {
     }
     .display-4 {
         font-size: 35px;
+    }
+    .jumbotron {
+        margin-bottom: 0;
     }
   }
