@@ -6,7 +6,7 @@ body, html {
     background-color: black;
 }
 
-/* NAVBAR */
+/* NAVBAR  MAIN*/
 
 nav {
     transition: background 0.4s ease-in-out;
@@ -53,9 +53,20 @@ button:focus {
     transition: transform 0.4s, opacity 0.2s;
 }
 
-  .navbar-hide {
+.navbar-hide {
     pointer-events: none;
     opacity: 0;
+}
+
+/* NAVBAR ABOUT */
+
+.static-top {
+    background: url("../images/headerColorBlack.png") repeat scroll 0 0 transparent;
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 /* CAROUSEL */
@@ -88,7 +99,7 @@ button:focus {
     max-width: 50PX;
 }
 
-/* JUMBOTRON */
+/* JUMBOTRON MAIN*/
 
 #main {
     vertical-align: middle;
@@ -110,6 +121,17 @@ button:focus {
     font-family: 'Lora', serif;
     text-align: center;
     color: white;
+}
+
+/* JUMBOTRON ABOUT */
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+#jumbotron-about {
+    height: 15em;
 }
 
 /* CARDS */
@@ -147,7 +169,7 @@ button:focus {
     padding: 0 10px 0 10px;
 }
 
-.col-12 {
+.align-self-center {
     padding: 10px 0 10px 0;
 }
 
@@ -178,6 +200,10 @@ button:focus {
     .page-footer {
         font-size: 20px;
         padding: 0 5px 2rem 5px;
+    }
+    #jumbotron-about {
+        height: 8em;
+        margin-bottom: 1rem;
     }
   }
 
