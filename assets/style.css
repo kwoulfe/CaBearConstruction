@@ -6,6 +6,10 @@ body, html {
     background-color: black;
 }
 
+.hpot {
+    display: none;
+  }
+
 /* NAVBAR  MAIN*/
 
 nav {
@@ -37,7 +41,8 @@ nav {
 }
 
 .nav-link:hover {
-    color: white;
+    color: #e28327;
+    text-decoration: underline;
 }
 
 button:focus {
@@ -152,6 +157,84 @@ button:focus {
     width: 100%;
     height: 25vw;
     object-fit: cover;
+}
+
+/* CONTACT PAGE */
+
+.phone {
+    color: #e28327
+}
+
+.phone:hover {
+    color: #e28327;
+}
+
+form {
+    text-align: center;
+  }
+
+  .form-control {
+    border-radius: 0;
+    background-clip: unset;
+    color: black;
+  }
+
+  .input-group-text {
+    border-radius: 0;
+  }
+
+  input[type='text'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  input[type='email'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  input[type='tel'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+#send-button {
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 0;
+  }
+
+iframe {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.iframe-container{
+    /* position: relative; */
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    /* padding: 0; */
+    height: 100%;
+    width: 100%;
 }
 
 /* FOOTER */
