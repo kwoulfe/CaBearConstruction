@@ -169,9 +169,10 @@ button:focus {
     color: #e28327;
 }
 
-form {
-    text-align: center;
-  }
+.contact-font {
+    font-family: 'Lora', serif;
+    color: white;
+}
 
   .form-control {
     border-radius: 0;
@@ -261,6 +262,12 @@ iframe {
 @media screen and (max-width: 1024px) {
     .carousel-item {
         height: 93vh;
+    }
+    form {
+        text-align: center;
+    }
+    .contact-font {
+        text-align: center;
     }
   }
 
