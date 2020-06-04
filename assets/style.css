@@ -174,46 +174,50 @@ button:focus {
     color: white;
 }
 
-  .form-control {
+.form-control {
     border-radius: 0;
     background-clip: unset;
     color: black;
-  }
+}
 
-  .input-group-text {
+.input-group-text {
     border-radius: 0;
-  }
+}
 
-  input[type='text'] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  
-  input[type='email'] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  
-  input[type='tel'] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
+form {
+    font-family: 'Lora', serif;
+}
 
-  textarea {
+input[type='text'] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-  }
+}
+  
+input[type='email'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+  
+input[type='tel'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 
 #send-button {
     background-color: white;
     color: black;
     border: 0;
     border-radius: 0;
-  }
+}
 
 iframe {
     padding-left: 15px;
@@ -259,7 +263,7 @@ iframe {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .carousel-item {
         height: 93vh;
     }
