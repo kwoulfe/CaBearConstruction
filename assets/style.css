@@ -115,6 +115,11 @@ button:focus {
     background-color: black;
 }
 
+#header {
+    font-family: teko;
+    font-size: 6rem;
+}
+
 .display-4 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -285,6 +290,9 @@ iframe {
     #jumbotron-about {
         height: 10em;
     }
+    #header {
+        font-size: 5rem;
+    }
   }
 
 @media screen and (max-width: 767px) {
@@ -302,6 +310,7 @@ iframe {
     }
     .jumbotron {
         margin-bottom: 0;
+        height: 18em;
     }
     .page-footer {
         font-size: 20px;
@@ -311,11 +320,13 @@ iframe {
         height: 8em;
         margin-bottom: 1rem;
     }
+    #header {
+        font-size: 3rem;
+    }
   }
 
-  /* @media screen and (max-width: 375px) {
-    .page-footer {
-        font-size: 20px;
-        padding: 0 5px 2rem 5px;
+  @media screen and (max-width: 375px) {
+    .jumbotron {
+        height: 20em;
     }
-  } */
+  }
