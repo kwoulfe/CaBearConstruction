@@ -261,6 +261,12 @@ iframe {
     padding: 10px 0 10px 0;
 }
 
+/* LIGHTBOX */
+
+.thumbnail {
+    padding-bottom: 25px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1023px) {
