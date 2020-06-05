@@ -174,11 +174,6 @@ button:focus {
     color: white;
 }
 
-.asterisk {
-    font-family: 'Lora', serif;
-    color: #e28327;
-}
-
 .form-control {
     border-radius: 0;
     background-clip: unset;
